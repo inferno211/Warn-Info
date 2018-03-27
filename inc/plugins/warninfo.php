@@ -15,7 +15,7 @@ function warninfo_info()
 		"website"		=> "http://github.com/inferno211",
 		"author"		=> "Piotr `Inferno` Grencel",
 		"authorsite"	=> "http://github.com/inferno211",
-		"version"		=> "1.0",
+		"version"		=> "1.0.1",
 		"guid" 			=> "",
 		"codename"		=> "",
 		"compatibility" => "18*"
