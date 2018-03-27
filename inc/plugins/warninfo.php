@@ -130,7 +130,7 @@ function warninfo(&$post)
 			{
 				if($warn['expired'] == 1)
 				{
-					$expires = $lang->expired;
+					$expires = $lang->warninfo_expired;
 				}
 				else
 				{
