@@ -6,3 +6,4 @@ $l['warninfo_expires'] = '<strong>Wygasa:</strong> ';
 $l['warninfo_expired'] = 'Wygasł';
 $l['warninfo_admin'] = '<strong>Admin:</strong> ';
 $l['warninfo_value'] = '<strong>Wartość:</strong> ';
+$l['warninfo_never'] = 'Nigdy';
