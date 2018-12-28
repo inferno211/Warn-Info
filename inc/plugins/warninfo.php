@@ -132,14 +132,14 @@ function warninfo(&$post)
 				{
 					$expires = $lang->warninfo_expired;
 				}
-				else
+				else if ($warn['expires'] != 0) 
 				{
-					if ($warn['expires'] != 0) {
-					    $expires = date($mybb->settings['warninfo_date'], $warn['expires']);
-					} else {
-					    $expires = 'Nigdy';
-					}
-				}
+				    $expires = date($mybb->settings['warninfo_date'], $warn['expires']);
+				} 
+				else 
+				{
+				    $expires = $lang->warninfo_never;
+				} 
 				$admin = get_user($warn['issuedby']);
 
 				$reason = '';
