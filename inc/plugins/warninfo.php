@@ -134,7 +134,11 @@ function warninfo(&$post)
 				}
 				else
 				{
-					$expires = date($mybb->settings['warninfo_date'], $warn['expires']);
+					if ($warn['expires'] != 0) {
+					    $expires = date($mybb->settings['warninfo_date'], $warn['expires']);
+					} else {
+					    $expires = 'Nigdy';
+					}
 				}
 				$admin = get_user($warn['issuedby']);
 
