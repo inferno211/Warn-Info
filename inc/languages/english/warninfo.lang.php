@@ -1,5 +1,5 @@
 <?php
-$l['warninfo_info'] = '<strong>Autor of this post get warn.</strong>';
+$l['warninfo_info'] = '<strong>The author of this post has been warned.</strong>';
 $l['warninfo_reason'] = '<strong>Reason:</strong> ';
 $l['warninfo_date'] = '<strong>Date:</strong> ';
 $l['warninfo_expires'] = '<strong>Expires:</strong> ';
